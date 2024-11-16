@@ -1,0 +1,93 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "WhiteLabel.Application": {
+      "path": "src/WhiteLabel.Application/WhiteLabel.Application.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.Application.Tests": {
+      "path": "test/WhiteLabel.Application.Tests/WhiteLabel.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "WhiteLabel.Domain.Shared": {
+      "path": "src/WhiteLabel.Domain.Shared/WhiteLabel.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.Application.Contracts": {
+      "path": "src/WhiteLabel.Application.Contracts/WhiteLabel.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.HttpApi": {
+      "path": "src/WhiteLabel.HttpApi/WhiteLabel.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.HttpApi.Client": {
+      "path": "src/WhiteLabel.HttpApi.Client/WhiteLabel.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.Web": {
+      "path": "src/WhiteLabel.Web/WhiteLabel.Web.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.Web.Tests": {
+      "path": "test/WhiteLabel.Web.Tests/WhiteLabel.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "WhiteLabel.EntityFrameworkCore.Tests": {
+      "path": "test/WhiteLabel.EntityFrameworkCore.Tests/WhiteLabel.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "WhiteLabel.EntityFrameworkCore": {
+      "path": "src/WhiteLabel.EntityFrameworkCore/WhiteLabel.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.TestBase": {
+      "path": "test/WhiteLabel.TestBase/WhiteLabel.TestBase.abppkg",
+      "folder": "test"
+    },
+    "WhiteLabel.Domain.Tests": {
+      "path": "test/WhiteLabel.Domain.Tests/WhiteLabel.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "WhiteLabel.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/WhiteLabel.HttpApi.Client.ConsoleTestApp/WhiteLabel.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "WhiteLabel.DbMigrator": {
+      "path": "src/WhiteLabel.DbMigrator/WhiteLabel.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "WhiteLabel.Domain": {
+      "path": "src/WhiteLabel.Domain/WhiteLabel.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

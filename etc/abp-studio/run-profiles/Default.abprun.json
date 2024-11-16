@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "WhiteLabel.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44359",
+      "path": "../../../src/WhiteLabel.Web/WhiteLabel.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
