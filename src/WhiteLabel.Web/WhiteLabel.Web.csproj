@@ -76,4 +76,6 @@
     <PackageReference Include="Volo.Abp.Studio.Client.AspNetCore" Version="0.9.4" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties NpmRestoreOnPackageJsonSave="True" NpmRestoreOnProjectOpen="True" /></VisualStudio></ProjectExtensions>
+
 </Project>

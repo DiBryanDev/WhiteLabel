@@ -101,11 +101,12 @@ namespace WhiteLabel.Web;
         {
             PreConfigure<AbpOpenIddictAspNetCoreOptions>(options =>
             {
-                options.AddDevelopmentEncryptionAndSigningCertificate = false;
+                options.AddDevelopmentEncryptionAndSigningCertificate = true;
             });
 
             PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
             {
+                var xx = serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "c128a5e1-0b15-40d6-8792-a5df81a7fb2c");
                 serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "c128a5e1-0b15-40d6-8792-a5df81a7fb2c");
                 serverBuilder.SetIssuer(new Uri(configuration["AuthServer:Authority"]!));
             });
